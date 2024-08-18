@@ -1,0 +1,94 @@
+.main-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f0f4f8;
+}
+
+.create-account {
+    flex: 1;
+    max-width: 45%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-account h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.create-account p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.create-account form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-account input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.create-account button[type="submit"] {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sign-in-options {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.sign-in-options button {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer-logos {
+    flex: 1;
+    max-width: 45%;
+    padding: 20px;
+    text-align: center;
+}
+
+.developer-logos h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.logos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.logos-grid img {
+    width: 300px;
+    height: auto;
+    /* filter: grayscale(100%); */
+    transition: filter 0.3s ease;
+}
+
+.logos-grid img:hover {
+    filter: none;
+}

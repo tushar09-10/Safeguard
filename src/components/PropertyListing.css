@@ -1,0 +1,50 @@
+.property-listings {
+    padding: 40px 20px;
+    background-color: #e9ecef;
+}
+
+.property-listings h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.listing-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listing-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.listing-card h3 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.listing-card p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.listing-card button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.listing-card button:hover {
+    background-color: #0056b3;
+}
